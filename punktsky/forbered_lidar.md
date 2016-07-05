@@ -47,11 +47,31 @@ Before the data acquisition mission can commence it is important to check that t
   
 * Placement of cross strips
 
-
-Description:It is checked that every flight strips has at least two cross strips. There may be examples of blocks where two cross strips is not possible or does not make sense. In this case only one cross strip is required.
+  Method: Manual Procedure
   
+  Description:It is checked that every flight strips has at least two cross strips. There may be examples of blocks where two cross strips is not possible or does not make sense. In this case only one cross strip is required.
+
+* Scan angle and overlap
+
+  Method: Manual Procedure
+  
+  Description:It is checked that there are no gaps in between the flight strips. 
 
 
+## Mission Management
 
+* Atmospheric Conditions
+  
+  Method: Semi-automatic, module METAR_logger
+  
+  Description: LiDAR is a fairly robust mapping technology able to acquire data when other technology have trouble. LiDAR works well both at nights and also with cloud cover, but there are atmospheric conditions that do hamper good data acquisition. Such conditions are strong winds that disturb flight paths and clouds or rain between the aircraft and the ground. These conditions are logged throughout the data acquisition period.   
 
+  Athmospheric data for the relevant flight days are extracted from the database and evaluated 
 
+* Ground Conditions
+
+  Method: Manual Procedure
+  
+  Description: Ground conditions are very important for securing good and usable data. Unacceptable ground conditions are basicly water or snow on the ground. It is also the ground conditions that dictate when data acquisition can commence. The contract states a date at which data acquisition can start but if the ground conditions are deemed free of snow and water GST may choose to allow the contractor to commence the acquisition period
+  
+  
