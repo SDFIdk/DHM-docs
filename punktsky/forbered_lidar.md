@@ -10,7 +10,7 @@ _Structure of data: Data to/from the supplier is stored on a common accessible l
 
 _The result of this check is a screening of the dataset to ensure that it is worthwhile to proceed with further evaluation_
 
-**Pre-mission**
+##Pre-mission
 
 Before the data acquisition mission can commence it is important to check that the mission plan made by the contractor will result in usable data. This check covers a number of different aspects, which result in the following list of things to be checked:
 
