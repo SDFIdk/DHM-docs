@@ -21,13 +21,12 @@ _From here the data is later on copied to the relevant blocks_
 
 Before the data acquisition mission can commence it is important to check that the mission plan made by the contractor will result in usable data. This check covers a number of different aspects, which result in the following list of things to be checked:
 
-**Survey method**
+###Survey method
 
 Method: Manual procedure
-  
 Description: It is checked that the mission has been planned using LiDAR equipment matching the contract
   
-**Collection Area**
+###Collection Area
 
 Method: Manual Procedure
   
