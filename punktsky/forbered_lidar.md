@@ -1,14 +1,14 @@
 # Lidar preparations
 
-_This process handles following inhouse works...:_ 
+This process handles following inhouse works...:
 
 * Pre-mission
 * Mission Management
 * Flight checks
 
-_Structure of data: Data to/from the supplier is stored on a common accessible location (presently stored on the m-drive). The sub-folders “FromSupplier” and “ToSupplier” works as inbox and outbox for all data delivered from/to the supplier. In this way it can always be seen when and what data has been delivered. All subfolders starts with a date in the iso format (YYYYMMDD) so the can be sorted by date. From here the data is later on copied to the relevant blocks_
+Structure of data: Data to/from the supplier is stored on a common accessible location (presently stored on the m-drive). The sub-folders “FromSupplier” and “ToSupplier” works as inbox and outbox for all data delivered from/to the supplier. In this way it can always be seen when and what data has been delivered. All subfolders starts with a date in the iso format (YYYYMMDD) so the can be sorted by date. From here the data is later on copied to the relevant blocks
 
-_The result of this check is a screening of the dataset to ensure that it is worthwhile to proceed with further evaluation_
+The result of this check is a screening of the dataset to ensure that it is worthwhile to proceed with further evaluation
 
 ##Pre-mission
 
