@@ -118,6 +118,24 @@ Method: Semi-automatic, module: LAScheck (LAStools)
 The LAS files must be formatted properly. 
 
 **File naming and count**
+Method: Semi-automatic. Module: QGIS, GST_DIS (Tile_check), ScanDir
+
+"Tile_check" checks delivered tiles against a tileindex shp file. The result is reviewed. Accepted when all tiles in a block are delivered.
+
+**Density and Data Voids**
+Method: Automatic, qc_wrap/density
+
+The module "qc_wrap/density" reports the 100m cells within a 1km tile with the lowest point density that does not intersect lakes or sea. Accepted when all 1km tiles have no 100m cells with less than 4ppm2. 100m2 with lower ppm2 may be accepted if the cell is coinciding with wetlands or equivalent. 
+
+**Visual sensor inspection**
+Method: Manual procedure
+
+These checks are very focused on the specific sensors used for the project. For this reason these are not checks done on the entire data set but more random samples done on each sensor to ensure that the sensors used are working within specified parameters.
+* Sensor mechanics
+* Multiple discrete
+* Scanner artefacts
+
+
 
 
 
