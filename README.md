@@ -1,4 +1,4 @@
-# DHM-docs #
+# Teknisk dokumentation af DHM #
 
 ## Introduktion ##
 
