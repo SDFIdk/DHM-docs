@@ -27,6 +27,7 @@ Before the data acquisition mission can commence it is important to check that t
   Description: It is checked that the mission has been planned using LiDAR equipment matching the contract
   
 * Collection Area
+
   Method: Manual Procedure
   Description: It is checked that the planned mission covers the entire area. Strips are transformed into swath-polygons that are checked against the tiles delivered to the contractor
 
