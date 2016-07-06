@@ -49,7 +49,7 @@ Expected patterns are
 * Along side breakwaters
 * On rocky surfaces
  
-If no unusual patterns are reported the data is accpeted. **NB! The result of this test is used to remove the spikes reported in the DEM generation process** <indsæt link til dok>
+If no unusual patterns are reported the data is accpeted. *NB! The result of this test is used to remove the spikes reported in the DEM generation process* <indsæt link til dok>
 
 **Vegetation below building polygon**
 
