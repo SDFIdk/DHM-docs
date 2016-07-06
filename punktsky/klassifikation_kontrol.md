@@ -1,4 +1,4 @@
-#Classification checks (E)
+#Classification checks
 
 Some of the tests listed below are similar to tests performed earlier. This is because the suggested workflow for larger contracts contains a two-step delivery where geometric adjusted blocks are deliverd first for geometry control and while the Agency is checking the geometry, the provider can continue with the classification. 
 
@@ -38,7 +38,9 @@ Method: Semi-automatic
 The road centre lines are used. If there is a sudden z-difference along the road it should be investigated. The module reports the result to a database to be visualised in a GIS system. There will be a lot of false positives (road work, roads close to slopes) so if no systematic patterns are seen advise is to do on ly spotwise test.
 
 **Spike check**
+
 Method: Automatic, module: qc_wrap/spike_check
+
 Checks for spikes (sinks, high points). The result is reported to a database. Unusual patterns are investigated. 
 
 Expected patterns are 
@@ -46,8 +48,11 @@ Expected patterns are
 * Inside forrests
 * Along side breakwaters
 * On rocky surfaces
+ 
+If no unusual patterns are reported the data is accpeted. **NB! The result of this test is used to remove the spikes reported in the DEM generation process** <indsæt link til dok>
 
 **Vegetation below building polygon**
+
 Method: Semi-automatic, module: qc_wrap/Xxx
 
 High, medium and low vegetation is counted for each building polygon, but only those points with z below the building polygon’s average z. If many points are classified as vegetation (inside buildings) there is reason to investigate further. 
@@ -72,6 +77,7 @@ Method: Manual procedure (QGIS, GDAL)
 * No artifacts are present.
 
 **Classification check**
+
 Method semi-automatic, module: qc_wrap/classification_check
 
 * A certain amount of terrain points inside building polygons are expected but the majority should be classified as “building”. Check that this is the case. 
