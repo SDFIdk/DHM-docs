@@ -68,3 +68,9 @@ As above
 Method: Automatic check, module:z_accuracy
 
 Surveryors measurement of road centre lines. These stretches are measured automatically and can be used as above. 
+
+---
+
+NB! Dette dokument er en lættere omskrivning fra originalen [hér](https://docs.google.com/document/d/1L5Bj4IGPBinCyzcHFO4n7pemHKG-DdtMz3xG3NMcVq4/edit#heading=h.8h3hjk9j9ytk)
+
+
