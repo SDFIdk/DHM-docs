@@ -139,3 +139,10 @@ The sensor is evaluated against the agreement with the supplier
 
 Control report from supplier is checked to see if it meets specification
 
+---
+
+NB! Dette dokument er en lættere omskrivning fra originalen [hér](https://docs.google.com/document/d/1L5Bj4IGPBinCyzcHFO4n7pemHKG-DdtMz3xG3NMcVq4/edit#heading=h.8h3hjk9j9ytk)
+
+
+
+
