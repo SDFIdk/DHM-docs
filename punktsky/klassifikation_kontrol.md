@@ -88,3 +88,8 @@ Method semi-automatic, module: qc_wrap/classification_check
 Method semi-automatic, module: qc_wrap/diff
 
 The grid model from 2007 and 2014/15 are compared (subtracted). Areas with known/expected difference (open pit mining areas) are excluded from the comparison. Larger areas with deviations are isolated and inspected.
+
+---
+
+NB! Dette dokument er en lættere omskrivning fra originalen [hér](https://docs.google.com/document/d/1L5Bj4IGPBinCyzcHFO4n7pemHKG-DdtMz3xG3NMcVq4/edit#heading=h.8h3hjk9j9ytk)
+
