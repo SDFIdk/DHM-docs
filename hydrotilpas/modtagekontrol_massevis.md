@@ -68,20 +68,25 @@ Encountered 0 'dublet' tilenames
 Encountered 0 bad tile-names.
 ```
 
-Tile coverage for ikke-tilpassede DTM'er:
+Tile coverage for ikke-tilpassede DTM'er genereres fra Geodatabanken med ```ogr2ogr```.
+Bemærk at PASSWORD i nedenstående skal erstattes med det korrekte password.
+Spørg Thorbjørn eller Kristian hvis du ikke kender det.
 ```
-C:\dev>ogr2ogr 
+C:\dev\dhym_tilpasningslag>ogr2ogr -f sqlite C:\data\dhym_niras\etape2\dtm_coverage.sqlite -nln coverage "OCI:RASTER_PUNKTSKY_KATALOG_L1/PASSWORD@gst-orarac.prod.sitad.dk:1521/geobank.prod.sitad.dk:DTM" -sql "SELECT filnavn tile_name, sti path, mrow \"row\", mcol \"col\" FROM dtm WHERE registreringtil IS NULL"
 ```
-
 
 Herefter køres ```check_dtms.py``` fire gange, da alle kombinationer af hestesko, linjer, DHM/Nedbør og DHM/Havstigning skal testes.
 Her vises kun for DHM/Nedbør - proceduren er tilsvarende for DHM/Havstigning.
 
-DHM/Nedbør og Hestesko:
+DHM/Nedbør og linjer:
+```
+C:\dev\dhym_tilpasningslag>python check_dtms.py F:\dhm\dhym\etape2\coverage_dhym_rain.sqlite C:\data\dhym_niras\etape2\dtm_coverage.sqlite C:\data\dhym_niras\etape2\Tilpasninglaget\Line.shp line rain --verbose
 ```
 
+DHM/Nedbør og hestesko:
 ```
-
+C:\dev\dhym_tilpasningslag> python check_dtms.py F:\dhm\dhym\etape2\coverage_dhym_rain.sqlite C:\data\dhym_niras\etape2\dtm_coverage.sqlite C:\data\dhym_niras\etape2\Tilpasninglaget\Horseshoe.shp horseshoe rain --verbose
+```
 
 ### Hillshades ###
 
