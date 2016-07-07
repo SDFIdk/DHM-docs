@@ -1,4 +1,4 @@
-# Modtage kontrol af mange data #
+# Modtagekontrol af mange data #
 
 Modtagekontrollen af data relateret til det hydrologiske tilpasningslag udføres ved hjælp af en samlings python scripts, 
 der kan findes på [BitBucket](https://bitbucket.org/GSTudvikler/dhym_tilpasningslag).
@@ -109,9 +109,12 @@ Starting 4 process(es).
 Using process db: hillshade_1467895823.sqlite
 [qc_wrap - hillshade]: Done: 0.0 pct, tiles left: 4782, estimated time left: unknown, active: 4
 [qc_wrap - hillshade]: Done: 0.4 pct, tiles left: 4764, estimated time left: 5309.74 s, active: 4
-[qc_wrap - hillshade]: Done: 0.6 pct, tiles left: 4751, estimated time left: 5379.36 s, active: 4
-[qc_wrap - hillshade]: Done: 0.9 pct, tiles left: 4737, estimated time left: 5277.97 s, active: 4
 ...
+[qc_wrap - hillshade]: Done: 99.6 pct, tiles left: 20, estimated time left: 35.85 s, active: 4
+[qc_wrap - hillshade]: Done: 99.9 pct, tiles left: 6, estimated time left: 10.74 s, active: 4
+Running time 8561.98 s
+[qc_wrap]: Did 4782 tile(s).
+qc_wrap finished at Thu Jul 07 17:16:52 2016
 ```
 
 
