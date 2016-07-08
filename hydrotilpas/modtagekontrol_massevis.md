@@ -123,11 +123,19 @@ Hillshade filerne _kan_ i yderste kosekvens godt distribueres som 1km-filer med 
 
 Start med at kopiere filerne til en maskine med en SSD disk. 
 
-Kør herefter kommandoen: 
+Kør herefter kommandoerne: 
 
 ```
 gdalbuildvrt filnavn.vrt mappe-med-1km-filer
 ```
+og
+```
+gdal_translate -of GTiff -CO COMPRESS=DEFLATE vrt-fil-navn.vrt tif-fil-navn.tif
+```
+gdalbuildvrt går ret hurtigt, gdal_translate kan godt tage nogle timer.
+
+
+
 
 
 
