@@ -119,7 +119,7 @@ qc_wrap finished at Thu Jul 07 17:16:52 2016
 
 **Komprimering til distribution**
 
-Hillshade filerne _kan_ i yderste kosekvens godt distribueres som 1km-filer med vrt og eksterne overviews. Dette er af flere årsager ikke det mest praktiske (mange filer via ftp kan gå galt - vrt filen kan blive stor og dermed stor søgetid). Derfor er det bedste at lave én tiff-fil med enten interne eller eksterne overviews. I det følgende beskrives eksterne, da dette har vist sig at være en gangbar metde. 
+Hillshade filerne _kan_ i yderste konsekvens godt distribueres som 1km-filer med vrt og eksterne overviews. Dette er af flere årsager ikke det mest praktiske (mange filer via ftp kan gå galt - vrt filen kan blive stor og dermed længere søgetid). Derfor er det bedste at lave én tiff-fil med enten internt eller eksternt overviews. I det følgende beskrives eksternt, da dette tager kortere tid at producere, og har vist sig at være en gangbar metode. 
 
 Start med at kopiere filerne til en maskine med en SSD disk. 
 
