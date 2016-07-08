@@ -130,7 +130,7 @@ gdalbuildvrt filnavn.vrt mappe-med-1km-filer
 ```
 og
 ```
-gdal_translate -of GTiff -CO COMPRESS=DEFLATE vrt-fil-navn.vrt tif-fil-navn.tif
+gdal_translate -of GTiff -CO BIGTIFF=YES -CO COMPRESS=DEFLATE vrt-fil-navn.vrt tif-fil-navn.tif
 ```
 gdalbuildvrt går ret hurtigt, gdal_translate kan godt tage nogle timer.
 
