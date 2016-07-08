@@ -51,6 +51,19 @@ De fundne fejl rapporteres i shape-filerne, på samme måde som det gøres under
 
 I det følgende vises kun for DHM/Nedbør (rain) - proceduren er tilsvarende for DHM/Havstigning (searise).
 
+### Check for korrupte filer ###
+
+Inden de egentlige checks af højdemodellerne starter, er det en god ide at sikre sig at alle filerne er intakte.
+Det gøres ved at køre følgende script:
+
+```
+python check_dtm_validity.py F:\DHM\Dhym\etape2\HydroDTM_Rain log_rain.txt
+```
+
+Resultatet printes på skærmen, og hvis der findes nogle fejl skrives en fil på disken.
+Hvis alt er som det skal være kan de resterende checks udføres, ellers skal fejlene udbedres.
+
+
 ### DTM check ###
 
 Lav først tile coverage over de hydrologisk tilpassede DTM'er:
