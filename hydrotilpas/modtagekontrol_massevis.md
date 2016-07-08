@@ -132,14 +132,14 @@ og
 ```
 gdal_translate -of GTiff -CO BIGTIFF=YES -CO COMPRESS=DEFLATE vrt-fil-navn.vrt tif-fil-navn.tif
 ```
-gdalbuildvrt går ret hurtigt, gdal_translate kan godt tage nogle timer.
+gdalbuildvrt går ret hurtigt, gdal_translate kan godt tage et døgns tid.
 
 Overviews dannes efterfølgende med kommandoen: 
 
 ```
 gdaladdo -ro --config COMPRESS_OVERVIEW LZW -r gauss tif-fil-navn.tif 4 8 16 32
 ```
-
+Denne proces kan ligeledes tage lang tid. 
 
 
 
