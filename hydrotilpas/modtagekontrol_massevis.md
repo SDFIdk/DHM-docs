@@ -136,6 +136,12 @@ Hillshade filerne _kan_ i yderste konsekvens godt distribueres som 1km-filer med
 
 Start med at kopiere filerne til en maskine med en SSD disk. 
 
+Sæt herefter GDAL_CACHEMAX (hvis flere prompt-vinduer er åbne, skal det gøres i **ALLE** vinduer)
+
+```
+set GDAL_CACHEMAX=4096
+```
+
 Kør herefter kommandoerne: 
 
 ```
@@ -150,7 +156,6 @@ gdalbuildvrt går ret hurtigt, gdal_translate kan godt tage et døgns tid.
 Overviews dannes efterfølgende med kommandoen: 
 
 ```
-set GDAL_CACHEMAX=4096
 gdaladdo -ro --config COMPRESS_OVERVIEW LZW -r gauss tif-fil-navn.tif 4 8 16 32
 ```
 
