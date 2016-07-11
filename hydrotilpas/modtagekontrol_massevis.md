@@ -150,8 +150,10 @@ gdalbuildvrt går ret hurtigt, gdal_translate kan godt tage et døgns tid.
 Overviews dannes efterfølgende med kommandoen: 
 
 ```
+set GDAL_CACHEMAX=4096
 gdaladdo -ro --config COMPRESS_OVERVIEW LZW -r gauss tif-fil-navn.tif 4 8 16 32
 ```
+
 Denne proces kan ligeledes tage lang tid. 
 
 
