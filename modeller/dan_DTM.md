@@ -75,3 +75,5 @@ TARGS=[TILE_DB,OUTDIR,
 "-rowcol_sql","select mrow,mcol from distr_adm.v_pktsky_aktive where tile_name='{TILE_NAME}'","-tile_sql",
 "select file_location,ground_classes,surface_classes,height_system from distr_adm.v_pktsky_aktive where abs(mrow-({ROW}))<2 and abs(mcol-({COL}))<2"]
 ```
+
+Når beregningen af DTM/DSM er foretaget, kan filerne indlæses i Geodatabanken. 
