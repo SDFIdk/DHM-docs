@@ -2,13 +2,13 @@
 ___
 
 
-#H1 Vejledning i gridding (DTM/DSM) fra master
+# Vejledning i gridding (DTM/DSM) fra master
 
 
 Efter at filer er lagt i master-biblioteket <LINK>, kan der laves ny DTM og DSM. 
 
 
-#H2 Step 1 - tildel søhøjder. 
+## Step 1 - tildel søhøjder. 
 
 
 Kræver: 
@@ -36,7 +36,7 @@ python qc_wrap.py -testname set_lake_z -tiles "OCI:<USER>/<PASSWORD>@<ORACLE_CON
 
 
 
-#H2 Step 2 - generer DTM/DSM med søer.
+## Step 2 - generer DTM/DSM med søer.
 
 
 Brug job i DHMqc_params, f.eks. job_dem_gen_master_b01.py
