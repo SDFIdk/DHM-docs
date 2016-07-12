@@ -1,6 +1,6 @@
 #Dan DVR90 punktsky
 
-Forvaltningssystemet indeholder data med højder i ellipsoidehøjder. Til den brede offentlighed (også internt) er punktsky i ortografiske højder langt mere anvendelige. Derfor sker et udtræk til DVR90 (Dansk Vertikal Reference 1990). 
+Forvaltningssystemet indeholder data med højder i ellipsoidehøjder. Til den brede offentlighed (også internt) er punktsky i geoide-højder langt mere anvendelige. Derfor sker et udtræk til DVR90 (Dansk Vertikal Reference 1990). 
 
 Eftersom udtrækket sker vha forvaltningssystemets Oracle database, skal der dannes en SQL-forespørgsel, som er tilpasset det område, som ønskes udtrukket. 
 
