@@ -1,5 +1,3 @@
-**NB! Se dokument dan_DTM.md**
+**NB! Af beregningstekniske årsager foretages DSM-beregningen slået sammen med DTM. Se Dan_DTM.md**
 ___
 
-
-Kristian: Hvorfor sondring mellem DEM og DSM? Skulle i givet fald vel være DTM og DSM?
