@@ -149,14 +149,14 @@ gdalbuildvrt filnavn.vrt mappe-med-1km-filer
 ```
 og
 ```
-gdal_translate -of GTiff -CO BIGTIFF=YES -CO COMPRESS=DEFLATE vrt-fil-navn.vrt tif-fil-navn.tif
+gdal_translate -of GTiff -a_srs EPSG:25832 -co COMPRESS=DEFLATE -co PREDICTOR=2 -co TILED=YES -co BIGTIFF=YES vrt-fil-navn.vrt tif-fil-navn.tif  
 ```
 gdalbuildvrt går ret hurtigt, gdal_translate kan godt tage et døgns tid.
 
 Overviews dannes efterfølgende med kommandoen: 
 
 ```
-gdaladdo -ro --config COMPRESS_OVERVIEW LZW --config BIGTIFF_OVERVIEW YES -r gauss tif-fil-navn.tif 4 8 16 32
+gdaladdo -ro -r gauss --config COMPRESS_OVERVIEW DEFLATE --config PREDICTOR_OVERVIEW 2 --config TILED_OVERVIEW YES --config BIGTIFF_OVERVIEW YES tif-fil-navn 2 4 8 16 32 64 128 256
 ```
 
 Denne proces kan ligeledes tage lang tid. 
